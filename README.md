@@ -49,4 +49,4 @@ Getting Started
 
 The lectures can be run via a web server by using the following URL:
 
-https://mybinder.org/v2/gh/Jammy2211/autofit_workspace/HEAD
+https://mybinder.org/v2/gh/Jammy2211/stfc_data_summer_school_2024/HEAD
