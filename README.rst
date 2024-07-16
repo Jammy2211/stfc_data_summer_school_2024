@@ -44,9 +44,42 @@ interpretation. The chapter includes:
 
 `tutorial_8_astronomy_examples.py`: Applying the techniques to a real-world astronomy problem.
 
-Getting Started
----------------
+Binder Web Server
+-----------------
 
-The lectures can be run via a web server by using the following URL:
+The lectures can be run via a Binder web server by using the URL below.
+
+Tests performed for this URL were unreliable on Tuesday 16th July, whereby the binder was unable to build
+and produced errors. If you encounter an error, try refreshing the page in your web browser.
+
+However, if the URL does not build successfully follow the local installation instructions below.
 
 https://mybinder.org/v2/gh/Jammy2211/stfc_data_summer_school_2024/HEAD
+
+Local Installation
+------------------
+
+We strongly recommend that you install **PyAutoFit** in a
+`Python virtual environment <https://www.geeksforgeeks.org/python-virtual-environment/>`_, with the link attached
+describing what a virtual environment is and how to create one.
+
+The latest version of **PyAutoFit** is installed via pip as follows (specifying the version as shown below ensures
+the installation has clean dependencies):
+
+.. code-block:: bash
+
+    pip install autofit
+
+If this raises no errors **PyAutoFit** is installed!
+
+Next, clone the ``autofit workspace`` (the line ``--depth 1`` clones only the most recent branch on
+the ``autofit_workspace``, reducing the download size):
+
+.. code-block:: bash
+
+   cd /path/on/your/computer/you/want/to/put/the/autofit_workspace
+   git clone https://github.com/Jammy2211/stfc_data_summer_school_2024 --depth 1
+   cd autofit_workspace
+
+The workspace contains the HowToFit lectures, which are Jupyter notebooks that can be run using your
+standard Jupiter notebook environment.
