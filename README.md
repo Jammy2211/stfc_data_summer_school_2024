@@ -43,3 +43,10 @@ interpretation. The chapter includes:
 `tutorial_5_results_and_samples.py`: Interpreting model-fit results and using the samples for scientific analysis.
 
 `tutorial_8_astronomy_examples.py`: Applying the techniques to a real-world astronomy problem.
+
+Getting Started
+---------------
+
+The lectures can be run via a web server by using the following URL:
+
+https://mybinder.org/v2/gh/Jammy2211/autofit_workspace/HEAD
