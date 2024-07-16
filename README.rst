@@ -40,9 +40,7 @@ interpretation. The chapter includes:
 
 `tutorial_4_why_modeling_is_hard.py`: Why modeling becomes difficult and how to over model-fitting problems.
 
-`tutorial_5_results_and_samples.py`: Interpreting model-fit results and using the samples for scientific analysis.
-
-`tutorial_8_astronomy_examples.py`: Applying the techniques to a real-world astronomy problem.
+`tutorial_5_astronomy_examples.py`: Applying the techniques to a real-world astronomy problem.
 
 Binder Web Server
 -----------------
